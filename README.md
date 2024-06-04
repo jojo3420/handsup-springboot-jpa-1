@@ -14,3 +14,13 @@ JDBC URL: jdbc:h2:~/jpashop
 http://localhost:8082
 ```
 JDBC URL: jdbc:h2:tcp://localhost/~/jpashop
+
+## gradle 빌드하기(jar)
+ ```shell
+./gradlew build
+```
+```shell
+java -jar build/libs/handsup-springboot-jpa-1-0.0.1-SNAPSHOT.jar
+
+```
+![img.png](resource/img.png)
