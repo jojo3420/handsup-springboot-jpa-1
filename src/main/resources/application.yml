@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:tcp://localhost/~/jpashop;
+    url: jdbc:h2:tcp://127.0.0.1/~/jpashop;
     username: sa
     password:
     driver-class-name: org.h2.Driver
@@ -13,7 +13,7 @@ spring:
         show_sql: true  # system.out ?? ??
         format_sql: true
         use_sql_comments: true
-        dialect: org.hibernate.dialect.H2Dialect
+#        dialect: org.hibernate.dialect.H2Dialect
 #logging:
 #  level:
 #    org.hibernate.sql: debug  # logger? ???? ??
