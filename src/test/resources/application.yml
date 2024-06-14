@@ -1,0 +1,17 @@
+# h2 db in-memory documents: https://h2database.com/html/cheatSheet.html
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb;  # H2 in-memory database
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        use_sql_comments: true
